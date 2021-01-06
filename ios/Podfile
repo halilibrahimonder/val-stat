@@ -8,6 +8,8 @@ target 'ValStat' do
 
   use_react_native!(:path => config["reactNativePath"])
 
+  pod 'react-native-orientation-locker', :path => '../node_modules/react-native-orientation-locker'
+
   target 'ValStatTests' do
     inherit! :complete
     # Pods for testing
