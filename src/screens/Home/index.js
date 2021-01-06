@@ -18,8 +18,7 @@ export default class Home extends Component {
               fontSize: 30,
               marginBottom: 20,
             }}>
-            {' '}
-            valStat{' '}
+            valStat
           </Text>
           <Jiro
             label={'gameName#tagLine'}
@@ -27,10 +26,12 @@ export default class Home extends Component {
             inputPadding={16}
             inputStyle={{color: 'white'}}
             onChangeText={this.onChange}
-            onSubmitEditing={this.checkValue}
             blurOnSubmit={true}
           />
-          <ValButton containerStyle={{marginLeft: '37%'}} />
+          <ValButton
+            containerStyle={{marginLeft: '37%'}}
+            onPress={() => this.props.navigation.navigate('CareerTab')}
+          />
         </View>
       </BackgroundImg>
     );
