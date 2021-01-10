@@ -12,6 +12,8 @@ target 'ValStat' do
 
   pod 'BVLinearGradient', :path => '../node_modules/react-native-linear-gradient'
 
+  pod 'RNSVG', :path => '../node_modules/react-native-svg'
+
   target 'ValStatTests' do
     inherit! :complete
     # Pods for testing
