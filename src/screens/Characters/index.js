@@ -29,6 +29,7 @@ export default class Characters extends Component {
             fav_gun: item.fav_gun,
             won: item.won,
             score: item.score,
+            tier: item.tier,
           });
         }}>
         <Avatar
