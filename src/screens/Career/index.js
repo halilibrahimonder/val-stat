@@ -32,7 +32,7 @@ export default class Career extends Component {
           <Avatar
             size={'small'}
             rounded
-            title={item.name[0]}
+            title={item.tier[0]}
             source={images.tier[item.tier].uri}
           />
           <Avatar
@@ -42,13 +42,13 @@ export default class Career extends Component {
             source={images.characters[item.name].uri}
           />
 
-          <ListItem.Content style={{alignItems: 'center'}}>
+          <ListItem.Content>
             <ListItem.Title
               style={{color: 'white', fontWeight: 'bold', fontSize: 10}}>
               {item.name}
             </ListItem.Title>
             <ListItem.Subtitle style={{color: 'white', fontSize: 10}}>
-              {item.skor}
+              {item.score}
             </ListItem.Subtitle>
           </ListItem.Content>
 
