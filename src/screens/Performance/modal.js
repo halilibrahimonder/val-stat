@@ -153,7 +153,7 @@ export default class PerformanceModal extends Component {
   };
   render() {
     return (
-      <BackgroundImg>
+      <BackgroundImg paddingTop={0} paddingBottom={0}>
         <FlatList
           keyExtractor={this.keyExtractor}
           data={perf}
