@@ -135,6 +135,76 @@ const images = {
       uri: require('../images/tier/radiant.png'),
     },
   },
+  guns: {
+    classic: {
+      uri: require('../images/guns/classic.png'),
+      width: 50,
+    },
+    shorty: {
+      uri: require('../images/guns/shorty.png'),
+      width: 100,
+    },
+    ghost: {
+      uri: require('../images/guns/ghost.png'),
+      width: 100,
+    },
+    sheriff: {
+      uri: require('../images/guns/sheriff.png'),
+      width: 80,
+    },
+    frenzy: {
+      uri: require('../images/guns/frenzy.png'),
+      width: 50,
+    },
+    stinger: {
+      uri: require('../images/guns/stinger.png'),
+      width: 120,
+    },
+    spectre: {
+      uri: require('../images/guns/spectre.png'),
+      width: 120,
+    },
+    bulldog: {
+      uri: require('../images/guns/bulldog.png'),
+      width: 120,
+    },
+    guardian: {
+      uri: require('../images/guns/guardian.png'),
+      width: 120,
+    },
+    phantom: {
+      uri: require('../images/guns/phantom.png'),
+      width: 120,
+    },
+    vandal: {
+      uri: require('../images/guns/vandal.png'),
+      width: 120,
+    },
+    bucky: {
+      uri: require('../images/guns/bucky.png'),
+      width: 120,
+    },
+    judge: {
+      uri: require('../images/guns/judge.png'),
+      width: 120,
+    },
+    ares: {
+      uri: require('../images/guns/ares.png'),
+      width: 120,
+    },
+    odin: {
+      uri: require('../images/guns/odin.png'),
+      width: 120,
+    },
+    operator: {
+      uri: require('../images/guns/operator.png'),
+      width: 120,
+    },
+    marshal: {
+      uri: require('../images/guns/marshal.png'),
+      width: 120,
+    },
+  },
 };
 
 export {images};
